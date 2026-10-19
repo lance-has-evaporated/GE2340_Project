@@ -21,6 +21,7 @@
 \usepackage{graphicx}
 \usepackage{microtype}
 \usepackage{xcolor}
+% \usepackage{tabularx}
 
 % ======================== ASSIGNMENT CONSTRAINTS ========================
 % Phase 1 is GROUP WORK. Each group has 3--4 students.
@@ -31,21 +32,13 @@
 % =======================================================================
 
 \title{Phase 1: AI Project Proposal\\
-\large [Concise Project Title]}
+\large Optimizing Campus Course Selection and Scheduling}
 
 % Use the fourth author block only for a four-member group.
-
-% ===Copy from the group description===
-% FENG Yuxiang (Cody), 58520850
-% SOETANTO Darrel Edbert (Darrel), 58586617
-% Chen Lehan,  58520456
-% TANG Shun Chong Adrian (Adrian), 60313420
-% ======================================
-
 \author{
   FENG Yuxiang (Student ID: 58520850)\\
   \texttt{yuxiafeng2-c@my.cityu.edu.hk}
-  \And
+  \And 
   SOETANTO Darrel Edbert (Student ID: 58586617)\\
   \texttt{dsoetanto2-c@my.cityu.edu.hk}
   \AND
@@ -152,20 +145,19 @@ RLHF?
 
 \section{Comparative Analysis}
 
-% A compact comparison table is encouraged when it saves space.
-% \begin{table}[t]
-%   \centering
-%   \caption{Comparison of candidate AI approaches.}
-%   \label{tab:approach-comparison}
-%   \begin{tabular}{lccc}
-%     \toprule
-%     Approach & Expected benefit & Main requirement & Main limitation \\
-%     \midrule
-%     [A] & [\ldots] & [\ldots] & [\ldots] \\
-%     [B] & [\ldots] & [\ldots] & [\ldots] \\
-%     \bottomrule
-%   \end{tabular}
-% \end{table}
+A compact comparison table is encouraged when it saves space.
+\begin{table}[t]
+  \centering
+  \caption{Comparison of candidate AI approaches.}\label{tab:approach-comparison}
+  \begin{tabular}{lccc}
+    \toprule
+    Approach & Expected benefit & Main requirement & Main limitation \\
+    \midrule
+    CNN & Learns timetable patterns & Labeled schedule ratings & Needs more data \\
+    CNN & Learns timetable patterns & Labeled schedule ratings & Needs more data \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 
 
